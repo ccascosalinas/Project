@@ -1,4 +1,4 @@
-var clean = function () {
+export var clean = function () {
     number1 = "";
     number2 = "";
     operate = "";

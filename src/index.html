@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<link rel="stylesheet" href="style.css" />-->
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+    <div  id="BaseCalculator">
+      <div id="CalculatorSuperior">
+        <div id="header">
+          <h2>Casio</h2>
+          <input type="text" id="block" />
+        </div>
+        <div id="ShowCalculate">  </div>
+      </div>
+
+      <div>
+      <button  onclick="init(event)" value= 7 >7</button>
+    <button onclick="init(event)" value= 8>8</button>
+    <button onclick="init(event)" value=9>9</button>
+    <button onclick="init(event)" value="/">÷</button>
+    </div>
+      
+      <div>
+      <button  onclick="init(event)"  value="4">4</button>
+    <button  onclick="init(event)"  value="5">5</button>
+    <button  onclick="init(event)"  value="6">6</button>
+    <button onclick="init(event)" value="x">x</button>
+    </div>
+
+    <div>
+      <button  onclick="init(event)"  value="1" >1</button>
+    <button  onclick="init(event)"  value="2">2</button>
+    <button onclick="init(event)"  value="3"> 3</button>
+    <button onclick="init(event)" value="-">-</button>
+    </div>
+
+    <div>
+      <button onclick="clean()">C</button>
+    <button onclick="init(event)"   value="0">0</button>
+    <button onclick="init(event)"  value="+">+</button>
+    <button onclick="init(event)" value=".">.</button>
+    </div>
+
+    <div>
+    
+    <button id="equal" onclick="show()">=</button>
+    </div>
+      
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

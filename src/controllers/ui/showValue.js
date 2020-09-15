@@ -1,4 +1,4 @@
-var show = function () {
+export var show = function () {
     if (number1 && number2 && operate) {
       document.getElementById("ShowCalculate").innerText = calculate();
       if (calculate() && operate == "/" && number2 == "0") {
