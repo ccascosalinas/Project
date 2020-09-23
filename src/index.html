@@ -11,42 +11,42 @@
     <div  id="BaseCalculator">
       <div id="CalculatorSuperior">
         <div id="header">
-          <img src="./assets/images/image.png" alt="">
+          <img id="picture" src="./assets/images/image.png" alt="">
         </div>
         <div id="ShowCalculate">  </div>
       </div>
 
       <div>
-      <button  onclick="init(event)" value= 7 >7</button>
-    <button onclick="init(event)" value= 8>8</button>
-    <button onclick="init(event)" value=9>9</button>
-    <button onclick="init(event)" value="/">÷</button>
+      <button  class="numbers-btn" value= 7 >7</button>
+    <button class="numbers-btn" value= 8>8</button>
+    <button class="numbers-btn" value=9>9</button>
+    <button class="operators-btn" value="/">÷</button>
     </div>
       
       <div>
-      <button  onclick="init(event)"  value="4">4</button>
-    <button  onclick="init(event)"  value="5">5</button>
-    <button  onclick="init(event)"  value="6">6</button>
-    <button onclick="init(event)" value="x">x</button>
+      <button  class="numbers-btn"  value="4">4</button>
+    <button  class="numbers-btn"  value="5">5</button>
+    <button  class="numbers-btn"  value="6">6</button>
+    <button class="operators-btn" value="x">x</button>
     </div>
 
     <div>
-      <button  onclick="init(event)"  value="1" >1</button>
-    <button  onclick="init(event)"  value="2">2</button>
-    <button onclick="init(event)"  value="3"> 3</button>
-    <button onclick="init(event)" value="-">-</button>
+      <button  class="numbers-btn"  value="1" >1</button>
+    <button  class="numbers-btn"  value="2">2</button>
+    <button class="numbers-btn"  value="3"> 3</button>
+    <button class="operators-btn" value="-">-</button>
     </div>
 
     <div>
       <button onclick="clean()">C</button>
-    <button onclick="init(event)"   value="0">0</button>
-    <button onclick="init(event)"  value="+">+</button>
-    <button onclick="init(event)" value=".">.</button>
+    <button class="numbers-btn"   value="0">0</button>
+    <button class="operators-btn"  value="+">+</button>
+    <button class="operators-btn" value=".">.</button>
     </div>
 
     <div>
     
-    <button id="equal" onclick="show()">=</button>
+    <button id="equal">=</button>
     </div>
       
       </div>

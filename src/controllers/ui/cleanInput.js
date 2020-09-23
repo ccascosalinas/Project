@@ -4,3 +4,5 @@ export var clean = function () {
     operate = "";
     document.getElementById("ShowCalculate").innerText = "";
   };
+  
+

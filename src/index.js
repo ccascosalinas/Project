@@ -4,7 +4,8 @@ import { show } from "./controllers/ui/showValue";
 import { calculate } from "./controllers/calculate";
 import "./style.scss"
 
+init()
 //init(function(){});
-//clean()
+clean()
 //show()
 //calculate()

@@ -5,9 +5,9 @@ export var show = function () {
         alert("Error");
       }
     }
-    if (calculate()) {
+    /*if (calculate()) {
       number1 = calculate();
       number2 = "";
       operate = "";
-    }
+    }*/
   };
